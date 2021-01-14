@@ -21,6 +21,7 @@ class Pages extends Controller
         $this->view('pages/index', $data);
     }
 
+
     public function about() {
         // echo 'about method is loaded<br>';
         $data = array('content' => 'Pages about view is loaded by MVC');
