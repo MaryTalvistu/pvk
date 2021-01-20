@@ -32,4 +32,9 @@ class Page
         return $this->db->getAll();
     }
 
+    public function usersCount() {
+        $this->getUsers();
+        return $this->db->rowCount();
+    }
+
 }
